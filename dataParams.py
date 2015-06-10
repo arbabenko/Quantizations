@@ -21,10 +21,10 @@ class DataParams:
             self.groundtruthFilename = '/sata/ResearchData/BigAnn/gist/gist_groundtruth.ivecs'
             self.queriesFilename = '/sata/ResearchData/BigAnn/gist/gist_query.fvecs'
             self.dim = 960
-            self.learnPointsCount = 10000
+            self.learnPointsCount = 200000
             self.testPointsCount = 1000
-            self.basePointsCount = 100000
-            self.queriesCount = 100
+            self.basePointsCount = 1000000
+            self.queriesCount = 1000
             self.groundSize = 100
         else:
             raise Exception("Unknown data!")
